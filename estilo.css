@@ -1,0 +1,278 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	min-height: 100;
+	background-color: #e5e5e5;
+}
+
+.w-clearfix {
+	background-color: #33373d;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+li {
+	line-height: 44px;
+}
+
+.menu {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #85878b;
+	padding: 0px;
+	height: 45px;
+	max-width: 940px;
+}
+
+.lista-menu {
+	list-style: none;
+}
+.hipervinculo:hover .texto-menu {
+    color: #ffffff;
+}
+ul li.item {
+    padding: 0px;
+    line-height: 45px;
+}
+.texto-menu {
+	margin-right: 5%;
+}
+
+h1.titulo-seccion {
+	font-size: 28px;
+	line-height: 25px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #e5e5e5;
+	margin: 40px 10px 2px 0px;
+	padding-left: 40px;
+}
+
+h1.nombre {
+	font-size: 28px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2#profesion {
+	color: #777;
+	font-size: 22px;
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+p {
+	font-size: 15px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300;
+}
+
+.titulo {
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	width: 35%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	float: left;
+	background-color: #e5e5e5;
+}
+
+.valor {
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	width: 63%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	float: left;
+}
+
+.titulo, .valor {
+	border-bottom: 3px solid #e5e5e5;
+}
+
+.contenido-seccion {
+	margin: 30px 40px;
+}
+
+ul.lista-datos {
+	list-style: none;
+	padding-left: 0px;
+	width: 50%;
+	float: left;
+}
+
+.c-izquierda{
+	width: 26%;
+	float: left;
+}
+
+.c-derecha {
+	background-color: white;
+	width: 72%;
+	float: right;
+	border-radius: 50px;
+}
+
+.item-hobby {
+	display: inline-block;
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+	background-position: 0px;
+	background-size: cover;
+}
+
+.imagen-futbol {
+	background-image: url("Fotos/Futbol.jpg");
+	width: 100%;
+	min-height: 140px;
+	background-position: 0px;
+	background-size: cover;
+}
+
+.imagen-estudio {
+	background-image: url("Fotos/Caminar.jpg");
+	width: 100%;
+	min-height: 140px;
+	background-position: 0px;
+	background-size: cover;
+}
+
+.imagen-pc {
+	background-image: url("Fotos/PC.jpg");
+	width: 100%;
+	min-height: 140px;
+	background-position: 0px;
+	background-size: cover;
+}
+
+.texto-hobby {
+	padding: 1%;
+    background-color: #ffd600;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+#hobby {
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+}
+
+.w-clearfix:before, .w-clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.w-clearfix:after {
+	clear: both;
+}
+
+.icono{
+	width:24px;
+	height:24px;
+	float:left;
+	background-position: 0px 0px;
+	background-size: cover;
+	margin:10px 20px;
+
+}
+
+.imagen-sobre-mi {
+	background-image: url("Fotos/sobre-mi.png");
+}
+
+
+.imagen-educacion {
+	background-image: url("Fotos/educacion.png");
+}
+
+
+.imagen-experiencia-laboral {
+	background-image: url("Fotos/experiencia-laboral.png");
+}
+
+
+.imagen-hobbie {
+	background-image: url("Fotos/hobbie.png");
+}
+
+.hipervinculo:hover .icono.imagen-sobre-mi {
+	background-image: url("Fotos/sobre-mi-hover.png");
+}
+
+.hipervinculo:hover .icono.imagen-educacion {
+	background-image: url("Fotos/educacion-hover.png");
+}
+
+
+.hipervinculo:hover .icono.imagen-experiencia-laboral {
+	background-image: url("Fotos/experiencia-laboral-hover.png");
+}
+
+
+.hipervinculo:hover .icono.imagen-hobbie {
+	background-image: url("Fotos/hobbie-hover.png");
+}
+
+img {
+    width: 100%;
+}
+
+.linea {
+    width: 60px;
+    margin-top: 0px;
+    padding: 0 10px;
+    margin-left: 2%;
+}
+
+.mi-foto {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+    margin: 0 50% 0 50%;
+    float: left;
+    display: inline-block;
+	background-image: url("Fotos/redes-facebook.png");
+	background-position: 0px 0px;
+    background-size: cover;
+}
+.red:hover {
+	background-image: url("Fotos/redes-facebook-hover.png");
+}
+
+.hipervinculo:hover {
+    background: #ffd414;
+    color: white;
+}
+.contenedor {
+	min-width: 940px;
+}
